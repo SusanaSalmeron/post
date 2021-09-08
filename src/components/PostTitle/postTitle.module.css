@@ -1,0 +1,20 @@
+.article{
+    position:relative;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 15vh;
+    
+}
+
+.title{
+    margin: 1em; 
+}
+
+.span{
+    position:absolute;
+    bottom:10px;
+    right:15px;
+    text-decoration:none;
+}
+

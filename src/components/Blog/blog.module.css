@@ -7,25 +7,10 @@
     margin-left: 10em;
 }
 
-.article{
-    
-    position:relative;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin: 1em;
-    height: 50vh;
+.blog:last-child{
+    margin-bottom: 5em;
 }
 
-.body{
-    margin: 2em;
-}
-
-.span{
-    position:absolute;
-    bottom:10px;
-    right:15px;
-    text-decoration:none;
-}
 
 
 

@@ -3,23 +3,16 @@ import {
   Route,
 } from 'react-router-dom'
 import './App.css';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 import Blog from './components/Blog';
+import Post from './components/Post';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Route>
-          <NavBar />
-          <Blog />
-          <Footer />
-        </Route>
+        <Route exact path="/blog" component={Blog} />
+        <Route path="/blog/:id/post" component={Post} />
       </Router>
-
-
-
     </div>
   );
 }
