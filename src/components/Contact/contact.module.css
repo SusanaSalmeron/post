@@ -30,3 +30,9 @@ form{
     width: 90%;
     border: 1px solid darkmagenta;
 }
+
+.error{
+    display: inline-block;
+    margin: -1.5em 0 1em 0.2em;
+    color: red;
+}
